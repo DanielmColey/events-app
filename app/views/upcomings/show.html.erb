@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @upcoming.picture %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @upcoming.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @upcoming.description %>
+</p>
+
+<%= link_to 'Edit', edit_upcoming_path(@upcoming) %> |
+<%= link_to 'Back', upcomings_path %>
